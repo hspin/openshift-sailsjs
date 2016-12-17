@@ -5,6 +5,7 @@ change key in config/session.js
 generate random 
 
 1
+
     < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo
 
 2
